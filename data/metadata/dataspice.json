@@ -1,0 +1,44 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "Tick-human interactions: from allergic klendusity to the α-Gal syndrome",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "doi:10.7910/DVN/4KA4IB",
+      "email": null,
+      "affiliation": "INRA Centre de Jouy-en-Josas",
+      "name": "Mateos Hernández L"
+    }
+  ],
+  "description": "Ticks and the pathogens they transmit, including bacteria, viruses, protozoa and helminthes, constitute a growing burden for human and animal health worldwide. The ability of some animal species to acquire resistance to blood-feeding by ticks after a single or repeated infestation is known as acquired tick resistance (ATR). This resistance has been associated to tick-specific IgE response, the generation of skin-resident memory CD4 T cells, basophil recruitment, histamine release and epidermal hyperplasia. ATR has also been associated with protection to tick-borne tularemia through allergic klendusity, a disease-escaping ability produced by development of hypersensitivity to an allergen. In addition to pathogen transmission, tick infestation in humans is associated with the α-Gal syndrome (AGS), a type of allergy characterized by an IgE response against the carbohydrate Galα1-3Galβ1-4GlcNAc-R (α-Gal). This glycan is present in tick salivary proteins and on the surface of tick-borne pathogens such as Borrelia spp. and Anaplasma phagocytophilum, the causative agents of Lyme disease and granulocytic anaplasmosis. Most α-Gal-sensitized individuals develop IgE specific against this glycan, but only a small fraction develop the AGS. This review summarizes our current understanding of ATR and its impact on the continuum α-Gal sensitization, allergy, and the AGS. We propose that the α-Gal-specific IgE response in humans is an evolutionary adaptation associated with ATR and allergic klendusity with the trade-off of developing AGS (2021-02-12)Collapse Description [-]",
+  "datePublished": "2021-02-13",
+  "keywords": "Tick resistance; Klendusity; Alpha gal syndrome; Allergy; Immunity; Pathogen",
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": "CC0 1.0",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": null,
+      "description": null
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "Tick-human interactions: from allergic klendusity to the α-Gal syndrome",
+      "contentUrl": "https://doi.org/10.7910/DVN/4KA4IB",
+      "encodingFormat": "Word (.docx)"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+---
+title: "dataspice-qmd"
+author: "Mindy Marshall"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Install necessary packages (only needed once)
+
+install.packages("dataspice") install.packages("shiny")
+
+# Load the packages
+
+library(dataspice) library(shiny)
+
+# Create the required directory (if it doesn't exist)
+
+dir.create("data", showWarnings = FALSE)
+
+# Create a dataspice metadata template
+
+create_spice(dir = "data")
+
+# Run the Shiny app to edit metadata
+options(shiny.launch.browser = TRUE)
+edit_creators()
+
+
