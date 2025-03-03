@@ -46,9 +46,13 @@ write_spice()
 
 install.packages(c("jsonlite", "listviewer", "here", "magrittr", "pkgdown"))
 
-library(jsonlite) library(listviewer) library(here) library(magrittr) library(pkgdown)
+library(jsonlite) 
+library(listviewer) 
+library(here) 
+library(magrittr) 
+library(pkgdown)
 
-jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %\>% listviewer::jsonedit()
+jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %>% listviewer::jsonedit()
 
 dataspice::build_site(path = "data/metadata/dataspice.json", template_path = system.file("template.html5", package = "dataspice"), out_path = "docs/index.html" )
 
@@ -60,8 +64,4 @@ dataspice::build_site(path = "data/metadata/dataspice.json", template_path = sys
 
 # We use function dataspice::build_site() which creates file index.html in the docs/ folder of your project (which it creates if it doesn’t already exist).
 
-getwd()
-dataspice::build_site(path = "/data/metadata/dataspice.json",
-  template_path = system.file("template.html5", package = "dataspice"),
-  out_path = "docs/index.html"
-)
+getwd() dataspice::build_site(path = "/data/metadata/dataspice.json", template_path = system.file("template.html5", package = "dataspice"), out_path = "docs/index.html" )
